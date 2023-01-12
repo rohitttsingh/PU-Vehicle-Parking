@@ -46,6 +46,7 @@ private ProgressDialog loadingbar;
         phone = findViewById(R.id.etphone);
         email = findViewById(R.id.etemail);
         password = findViewById(R.id.etpassword);
+
         Paper.init(this);
         loadingbar=new ProgressDialog(this);
         String UserPasswordKey=Paper.book().read(Prevalent.UserPasswordKey);

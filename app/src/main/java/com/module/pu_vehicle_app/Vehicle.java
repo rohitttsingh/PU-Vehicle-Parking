@@ -24,7 +24,6 @@ public class Vehicle {
 
     public Vehicle(){
 
-
     }
     public String getVehicleNo() {
         return vehicleNo;
