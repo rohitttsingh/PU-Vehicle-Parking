@@ -159,7 +159,7 @@
                 </RelativeLayout>
 
                 <LinearLayout
-                    android:layout_width="260dp"
+                    android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_margin="15dp"
                     android:orientation="horizontal">
@@ -171,28 +171,6 @@
                         android:layout_weight="1"
                         android:src="@drawable/linkedin" />
 
-                    <ImageView
-                        android:id="@+id/twitterR"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/twitter" />
-
-
-                    <ImageView
-                        android:id="@+id/facebookR"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/facebook" />
-
-
-                    <ImageView
-                        android:id="@+id/instagramR"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/instagram" />
 
 
                 </LinearLayout>
@@ -226,8 +204,8 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_width="102dp"
+                                android:layout_height="111dp"
                                 android:layout_gravity="center"
                                 android:src="@drawable/prashant" />
 
@@ -270,7 +248,7 @@
                 </RelativeLayout>
 
                 <LinearLayout
-                    android:layout_width="260dp"
+                    android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_margin="15dp"
                     android:orientation="horizontal">
@@ -284,26 +262,6 @@
                         android:layout_weight="1"
                         android:src="@drawable/linkedin" />
 
-                    <ImageView
-                        android:id="@+id/twitterP"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/twitter" />
-
-                    <ImageView
-                        android:id="@+id/facebookP"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/facebook" />
-
-                    <ImageView
-                        android:id="@+id/instagramP"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/instagram" />
 
 
 
@@ -338,8 +296,8 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_width="103dp"
+                                android:layout_height="match_parent"
                                 android:src="@drawable/femil" />
 
                             <TextView
@@ -348,7 +306,7 @@
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
                                 android:fontFamily="@font/acme"
-                                android:text="Femil Savaliya "
+                                android:text="Dheeraj Kumar Singh"
                                 android:textColor="@color/yellow"
                                 android:textSize="32dp" />
                         </LinearLayout>
@@ -378,7 +336,7 @@
                 </RelativeLayout>
 
                 <LinearLayout
-                    android:layout_width="260dp"
+                    android:layout_width="70dp"
                     android:layout_height="50dp"
                     android:layout_margin="15dp"
                     android:orientation="horizontal">
@@ -390,27 +348,6 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:src="@drawable/linkedin" />
-
-                    <ImageView
-                        android:id="@+id/twitterF"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/twitter" />
-
-                    <ImageView
-                        android:id="@+id/facebookF"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/facebook" />
-
-                    <ImageView
-                        android:id="@+id/instagramF"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@drawable/instagram" />
 
 
 
