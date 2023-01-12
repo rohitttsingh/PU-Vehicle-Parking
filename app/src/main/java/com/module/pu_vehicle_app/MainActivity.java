@@ -26,6 +26,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.util.Log;
 import android.util.Patterns;
 import android.util.SparseArray;
 import android.view.Menu;
@@ -260,13 +261,27 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.exit) {
             Toast.makeText(MainActivity.this, "Exit Successfully", Toast.LENGTH_SHORT).show();
             finish();
-            System.exit(1);
+            startActivity(new Intent(getApplicationContext(), Log.class));
+            finish();
+        }
+
+        if(id == R.id.aboutus)
+        {
+            startActivity(new Intent(MainActivity.this,AboutUs.class));
+
         }
 
 
 
         return super.onOptionsItemSelected(item);
     }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        super.onBackPressed();
+    }
+
     private void showImageImportDialog() {
         String[] items = {"Camera", "Gallery"};
         AlertDialog.Builder dialog = new AlertDialog.Builder(this);

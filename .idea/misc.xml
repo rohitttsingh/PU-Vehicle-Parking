@@ -19,6 +19,9 @@
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.2865013774104683" />
         <entry key="app/src/main/res/layout/activity_search.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.2515625" />
+        <entry key="app/src/main/res/menu/menu2.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/menu3.xml" value="0.1" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2045" />
       </map>
     </option>

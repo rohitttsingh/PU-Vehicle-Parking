@@ -17,7 +17,8 @@
         android:theme="@style/Theme.PU_Vehicle_APP">
         <activity
             android:name=".AboutUs"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".DashboardActivity"
             android:exported="false" />

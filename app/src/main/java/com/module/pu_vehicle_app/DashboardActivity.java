@@ -10,6 +10,9 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
@@ -45,7 +48,34 @@ public class DashboardActivity extends AppCompatActivity {
         intent.putExtra("mis",mis);
         startActivity(intent);
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu3, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
 
+        if (id == R.id.exit) {
+            Toast.makeText(DashboardActivity.this, "Exit Successfully", Toast.LENGTH_SHORT).show();
+            finish();
+            startActivity(new Intent(getApplicationContext(), Log.class));
+            finish();
+
+        }
+        if(id == R.id.aboutus)
+        {
+            startActivity(new Intent(getApplicationContext(),AboutUs.class));
+        }
+        return super.onOptionsItemSelected(item);
+    }
+    @Override
+    public void onBackPressed() {
+        Toast.makeText(this, "Press again", Toast.LENGTH_SHORT).show();
+        finish();
+        super.onBackPressed();
+    }
     public void gotosearch(View view) {
         startActivity(new Intent(getApplicationContext(),SearchActivity.class));
     }

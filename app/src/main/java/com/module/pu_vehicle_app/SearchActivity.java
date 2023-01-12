@@ -311,7 +311,7 @@ public class SearchActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu, menu);
+        getMenuInflater().inflate(R.menu.menu2, menu);
         return super.onCreateOptionsMenu(menu);
     }
     @Override
@@ -320,13 +320,16 @@ public class SearchActivity extends AppCompatActivity {
         if (id == R.id.add) {
             showImageImportDialog();
         }
-        if (id == R.id.search) {
-            startActivity(new Intent(SearchActivity.this,SearchActivity.class));
-        }
         if (id == R.id.exit) {
             Toast.makeText(SearchActivity.this, "Exit Successfully", Toast.LENGTH_SHORT).show();
             finish();
-            System.exit(0);
+            startActivity(new Intent(getApplicationContext(), Log.class));
+            finish();
+
+        }
+        if(id == R.id.aboutus)
+        {
+            startActivity(new Intent(getApplicationContext(),AboutUs.class));
         }
         return super.onOptionsItemSelected(item);
     }
