@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PU Parking App</string>
+
+    <string name="vehiclenumber">Vehicle Number</string>
+    <string name="imagepreview">Image Preview</string>
+    <string name="detail">Vehicle Number</string>
+    <string name="search">Search</string>
+    <string name="name">Name:  </string>
+    <string name="location">Location:  </string>
+    <string name="hindi">हिंदी</string>
+    <string name="gujarati">ગુજરાતી</string>
+    <string name="email">Email:  </string>
+    <string name="call">CAll</string>
+    <string name="entername">Enter The Name Here</string>
+    <string name="phnumber1">Enter Phone Number 1</string>
+    <string name="phnumber2">Enter Phone Number 2</string>
+    <string name="emailenter">Enter The Email</string>
+    <string name="locationenter">Enter The Location</string>
+    <string name="SUBMIT">SUBMIT</string>
+    <string name="rohitdesc">Hey folks, this is Rohit Singh, I have Worked productively with Product Team to understand requirements and business specifications around Portfolio Management, Analytics and Risk.
+Team AlgoPedia Welcomes You To An Exciting Journey Of Learning DSA. We have Worked to solve complex problems using the latest Mobile, and Web Technologies,
+ Developed and presented  solutions to audiences using modern mediums, and also  achieved positions in different competitions.
+    </string>
+
+</resources>
