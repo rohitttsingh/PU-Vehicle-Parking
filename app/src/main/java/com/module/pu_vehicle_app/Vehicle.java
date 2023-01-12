@@ -5,7 +5,7 @@ public class Vehicle {
     String vehicleNo;
     String name;
     String phone1;
-    String phone2;
+    String phone2 = "null";
     String email;
     String location;
     String GuardMis;

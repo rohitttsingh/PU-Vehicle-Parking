@@ -60,7 +60,7 @@ public class DashboardActivity extends AppCompatActivity {
         if (id == R.id.exit) {
             Toast.makeText(DashboardActivity.this, "Exit Successfully", Toast.LENGTH_SHORT).show();
             finish();
-            startActivity(new Intent(getApplicationContext(), Log.class));
+            startActivity(new Intent(getApplicationContext(), LoginActivity.class));
             finish();
 
         }

@@ -138,12 +138,7 @@ public class MainActivity extends AppCompatActivity {
                     etphone1.requestFocus();
                     return;
                 }
-                if (etphone2.length()==0) {
-                    etphone2.setError("Enter The Phone Number");
-                    etphone2.requestFocus();
-                    return;
 
-                }
                 if (etemail.length()==0) {
                     etemail.setError("Enter Your Email");
                     etemail.requestFocus();
@@ -261,7 +256,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.exit) {
             Toast.makeText(MainActivity.this, "Exit Successfully", Toast.LENGTH_SHORT).show();
             finish();
-            startActivity(new Intent(getApplicationContext(), Log.class));
+            startActivity(new Intent(getApplicationContext(), LoginActivity.class));
             finish();
         }
 
