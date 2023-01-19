@@ -107,7 +107,7 @@ public class SearchActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 firebaseDatabase=FirebaseDatabase.getInstance();
-                databaseReference=firebaseDatabase.getReference();//.child(vehicleNo);
+                databaseReference=firebaseDatabase.getReference().child(vehicleNo);
 
                 if (mResultEt.length()==0){
                     mResultEt.setError("Enter Vehicle Number ");
