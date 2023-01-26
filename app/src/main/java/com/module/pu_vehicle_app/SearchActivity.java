@@ -107,7 +107,7 @@ public class SearchActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 firebaseDatabase=FirebaseDatabase.getInstance();
-                databaseReference=firebaseDatabase.getReference();//.child(vehicleNo);
+                databaseReference=firebaseDatabase.getReference().child("Vehicle");
 
                 if (mResultEt.length()==0){
                     mResultEt.setError("Enter Vehicle Number ");
@@ -118,7 +118,7 @@ public class SearchActivity extends AppCompatActivity {
                 databaseReference.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        if (snapshot.child("Vehicle").child(vehicleNo).exists()) {
+                        if (snapshot.child(vehicleNo).exists()) {
 
                             Vehicle vehicleData = snapshot.child(mResultEt.getText().toString()).getValue(Vehicle.class);
 
